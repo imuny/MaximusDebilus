@@ -1,0 +1,30 @@
+{
+  "item.maximusdebilus.imunyum_ingot":  "Imunyum Ingot",
+  "item.maximusdebilus.raw_imunyum":  "Raw Imunyum",
+
+
+
+  "item.maximusdebilus.imunyum_sword":  "Imunyum Sword",
+  "item.maximusdebilus.imunyum_pickaxe":  "Imunyum Pickaxe",
+  "item.maximusdebilus.imunyum_axe":  "Imunyum Axe",
+  "item.maximusdebilus.imunyum_shovel":  "Imunyum Shovel",
+  "item.maximusdebilus.imunyum_hoe":  "Imunyum Hoe",
+
+  "item.maximusdebilus.imunyum_helmet":  "Imunyum Helmet",
+  "item.maximusdebilus.imunyum_chestplate":  "Imunyum Chestplate",
+  "item.maximusdebilus.imunyum_leggings":  "Imunyum Leggings",
+  "item.maximusdebilus.imunyum_boots":  "Imunyum Boots",
+
+  "item.maximusdebilus.chisel":  "Chisel",
+
+  "block.maximusdebilus.imunyum_block":  "Imunyum Block",
+  "block.maximusdebilus.imunyum_ore":  "Imunyum Ore",
+
+  "block.maximusdebilus.magic_block":  "MAGIIIIIIIIIIIC",
+  "tooltip.tutorialmod.magic_block.tooltip": "let the magic §9h§ba§ap§ep§6e§4n§r",
+
+  "tooltip.tutorialmod.chisel.shift_down": "This Item changes certain Blocks",
+  "tooltip.tutorialmod.chisel": "Press §eShift§r for more Information!",
+
+  "creative.maximusdebilus.tab": "Maximus Debilus Tab"
+}

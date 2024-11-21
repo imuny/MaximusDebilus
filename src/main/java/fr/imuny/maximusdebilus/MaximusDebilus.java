@@ -1,9 +1,11 @@
 package fr.imuny.maximusdebilus;
 
 import com.mojang.logging.LogUtils;
+import fr.imuny.maximusdebilus.block.ModBlocks;
+import fr.imuny.maximusdebilus.item.ModCreativeModTabs;
+import fr.imuny.maximusdebilus.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -26,10 +28,11 @@ public class MaximusDebilus {
 
         modEventBus.addListener(this::commonSetup);
 
+        ModCreativeModTabs.register(modEventBus);
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
-
-        modEventBus.addListener(this::addCreative);
 
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }
@@ -37,9 +40,7 @@ public class MaximusDebilus {
     private void commonSetup(final FMLCommonSetupEvent event){
     }
 
-    private void addCreative(BuildCreativeModeTabContentsEvent event){
 
-    }
 
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event){
